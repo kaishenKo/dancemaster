@@ -7,3 +7,5 @@ Let's make it work!!!
 """
 
 print("Hello awesome TAs!")
+
+print("Hello there~")
