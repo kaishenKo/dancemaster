@@ -1,9 +1,19 @@
 """
-Task 4: Lists
+Task 4: Dictionaries, aka `dict`
 
 - are you familiar and confident with: `strings` and `ints`
 - are you familiar and confident with: `lists` and `dictionaries`
 - are you familiar and confident with: `functions`
+
+=======
+Brief:
+
+See if you can build a dictionary of 5 people, with their ages, best time in mario kart and height.
+
+Then, print the:
+- tallest,
+- oldest and/or
+- person with fastest time
 
 """
 
@@ -52,7 +62,13 @@ people["Saif"] = {"is_cool": True}
 # print(sorted(names)[-1])
 print("Saif", "is cool?", people.get("Saif").get("is_cool"))
 
-tim_tams = 11
+# people["Kai"] = 25
+# people["Saif"] = 26
+# people["Daniel"] = 126
 
-for i in range(tim_tams):
-    print(i)
+# print(people)
+
+for p in people:
+    # print(p, people[p].get("is_cool"))
+    print(p, people[p].get("is_this_person_cool"))
+    # print(p, people[p]["is_this_person_cool"])
